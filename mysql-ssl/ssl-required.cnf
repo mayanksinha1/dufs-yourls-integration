@@ -1,0 +1,7 @@
+[mysqld]
+ssl-ca=/etc/mysql/ssl/ssl_ca.pem
+ssl-cert=/etc/mysql/ssl/server-cert.pem
+ssl-key=/etc/mysql/ssl/server-key.pem
+
+# enforce SSL for all users
+require_secure_transport=ON
